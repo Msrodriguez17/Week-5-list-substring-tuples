@@ -78,20 +78,23 @@ newList2.append("Moises, Monica, Evins")
 ###### print the last item in the new list
 print(newList2)
 ###### sort the list
-#print(LuckyNumbers.sort())
+#newList2.sort()
+#print(newList2)
 ###### find a way to insert a new item at the 3rd position of the list
 newList2.insert(3, "phone")
 ###### print the new list out
 print(newList2)
 ##### reverse the list
-
+newList2.reverse()
 ###### print the new list out
+print(newList2)
 ###### print out the length of the new list
-
+#newList2.len()
+#print(newList2)
 #####################################challenge 2#######################################################
 # Join the following list into a string, separating each item with a space. Use the appropriate list/string method, and display the result.
 word_list = ["Simple", "is", "better", "than", "complex."]
-
+print(" ".join(word_list))
 # Print the following text in uppercase, using the specific string method:
 
 text1 = "Especially in electronic communications, writing in all caps is equivalent to yelling."
